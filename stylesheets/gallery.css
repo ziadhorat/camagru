@@ -1,0 +1,77 @@
+.error_msg {
+  color: #FFBF00;
+}
+
+.publication {
+  background-color: grey;
+  width: 650px;
+  max-width: 90%;
+  margin: auto;
+  margin-top:7px;
+  margin-bottom:7px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.publication h3 {
+  display: inline-block;
+  margin: 6px;
+}
+
+.gallery_photos {
+  max-width: 640px;
+  max-height: 480px;
+  max-width: 90%;
+}
+
+.like {
+  max-width: 35px;
+  max-height: 35px;
+  cursor: pointer;
+}
+
+.nb_likes {
+  font-size: 20px;
+  display:inline-block;
+  margin-bottom: 0;
+}
+
+.pub_img input, button {
+  padding: 10px 10px;
+  width: auto;
+  margin-right: 1px;
+}
+
+.pub_img input {
+  width: 70%;
+}
+
+.pub_img button {
+  font-size: 13px;
+  padding: 8px 7px;
+}
+
+.comments_container {
+  margin: auto;
+  text-align: left;
+  width: 640px;
+  max-width: 90%;
+  max-height: 150px;
+  overflow-x: auto;
+  word-break: break-all;
+  word-break: break-word;
+}
+
+.comments {
+	border-radius: 5%;
+  background-color: black;
+  border: 1px solid rgb(36, 36, 36);
+  margin: 1px;
+  padding: 2px;
+  color: white;
+}
+
+#see_more {
+  min-width: 200px;
+  line-height: 9px;
+}

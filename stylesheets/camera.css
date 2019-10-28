@@ -1,0 +1,112 @@
+#camera {
+  display: flex;
+}
+
+#view {
+  margin: auto;
+  margin-top: 10px;
+  max-width: 90%;
+}
+
+#cam_container {
+  position: relative;
+}
+
+#filter_canvas {
+    padding: 0;
+    max-width: 90%;
+    margin: auto;
+    display: block;
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+#startbutton {
+  margin: 2px;
+  max-width: 646px;
+}
+
+#photos_container {
+  text-align:center;
+  display:inline-block;
+  vertical-align:top;
+  max-width: 90%;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  margin-left: auto;
+  height: 75vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.photos {
+  display: block;
+  background-color: #fafbfc;
+  border: 3px solid #b0b0b0;
+  margin-bottom: 5px;
+  max-width: 320px;
+  max-height: 240px;
+  cursor: pointer;
+}
+
+#filters_container {
+  text-align:center;
+  display:inline-block;
+  vertical-align:top;
+}
+
+.filters {
+  background-color: #fafbfc;
+  border: 3px solid #b0b0b0;
+  margin: 5px 0 5px 0;
+  width: 50px;
+  height: 50px;
+}
+
+#upload_img {
+  display:inline-block;
+  max-width: 90%;
+}
+
+#upload_img button {
+  width:auto;
+  margin-left: 0;
+}
+
+#upload_img label {
+  display:table;
+  margin: auto;
+  margin-bottom: -5px;
+  padding-top: 10px;
+}
+
+#img_file {
+  width: 350px;
+  max-width: 90%;
+  margin-right: 0;
+}
+
+#video {
+  border: 3px solid #b0b0b0;
+  margin: auto;
+  max-width: 90%;
+  height: auto;
+}
+
+#video_img {
+  display:none;
+  margin:auto;
+  max-width: 640px;
+  max-height: 480px;
+  max-width: 90%;
+  border: 3px solid #b0b0b0;
+}
+
+@media screen and (max-width: 1200px) {
+  #camera {
+    display: block;
+  }
+  #cam_container {
+    position: initial;
+  }
+}
