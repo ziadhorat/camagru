@@ -207,25 +207,17 @@ function delete_img(img) {
                          navigator.mozGetUserMedia ||
                          navigator.msGetUserMedia);
 
-  navigator.getMedia(
-    {
-      video: true,
-      audio: false
-    },
-    function(stream) {
-      g_stream = stream;
-      if (navigator.mozGetUserMedia) {
-        video.mozSrcObject = stream;
-      } else {
-        var vendorURL = window.URL || window.webkitURL;
-        video.src = vendorURL.createObjectURL(stream);
-      }
-      video.play();
-    },
-    function(err) {
-      console.log("An error occured! " + err);
-    }
-  );
+navigator.mediaDevices.getUserMedia({video: true, audio: false}
+)
+.then(function(stream) {
+	//link to the video source
+	video.srcObject = stream;
+	//play video
+	video.play();
+})
+.catch(function(err){
+	console.log(`Error: ${err}`);
+});
 
   function set_img_attributes(img) {
 
