@@ -3,7 +3,7 @@
 }
 
 .publication {
-  background-color: grey;
+  background-color: #6C5B7B;
   width: 650px;
   max-width: 90%;
   margin: auto;
@@ -64,11 +64,11 @@
 
 .comments {
 	border-radius: 5%;
-  background-color: black;
-  border: 1px solid rgb(36, 36, 36);
+  background-color: #C06C84;
+  border: 1px solid #355C7D;
   margin: 1px;
   padding: 2px;
-  color: white;
+  color: #355C7D;
 }
 
 #see_more {

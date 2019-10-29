@@ -4,7 +4,7 @@
     <div id="view">
       <div id="cam_container">
         <canvas id="filter_canvas"></canvas>
-        <video id="video" style="display: inherit" poster="images/icons/cam_default.jpg"></video>
+        <video id="video" style="display: inherit" poster="images/icons/photo_default.jpg"></video>
         <img id="video_img" alt="">
         <button id="startbutton">Upload!</button><br/>
         <div id="filters_container"></div>

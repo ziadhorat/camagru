@@ -28,7 +28,7 @@ while (($img_data = $img_query->fetch(PDO::FETCH_ASSOC)) !== false) {
         <h3 class='post_infos' style='float: left'>".$img_data['author']."</h3>
         <h3 class='post_infos' style='float: right'>".$pub_date."</h3>
         <img class='gallery_photos' src='../images/upload".$img_link."'></img>
-        <img id='addlike_".$img_id."' class='like' src='../images/icons/like.png' onclick='add_like(this)'>
+        <img id='addlike_".$img_id."' class='like' src='../images/icons/heart.png' onclick='add_like(this)'>
         <p id='nblikes_".$img_id."' class='nb_likes'>".$img_data['nb_likes']."</p></img>";
   if ($_SESSION['logged'] !== NULL) {
     $page_content .= "<input id='comcontent_".$img_id."' type='text' placeholder='Your comment...'>

@@ -11,7 +11,7 @@ ul {
 	margin: 0;
 	padding:0;
 	overflow: hidden;
-	background-color: #333;
+	background-color: #6C5B7B;
 }
 
 li {
@@ -26,26 +26,26 @@ li:last-child {
 
 li a {
 	display: block;
-	color: white;
+	color: #F8B195;
 	text-align: center;
 	padding: 14px 16px;
 	text-decoration: none;
 }
 
 li a:hover {
-	background-color: #111;
+	background-color: #C06C84;
 }
 
 footer {
 	width:100%;
-	background-color: #333;
+	background-color: #6C5B7B;
 	position:fixed;
 	text-align:center;
 	bottom: 0;
-	border-top: 1px solid #bbb;
+	border-top: 1px solid #F8B195;
 	z-index: 1;
 }
 
 footer h3{
-	color:white;
+	color:#F67280;
 }
