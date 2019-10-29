@@ -124,7 +124,7 @@ document.getElementById("see_more").addEventListener('click', function(ev) {
   xhr.onreadystatechange = function() {
     if (xhr.status == 200 && xhr.readyState == 4) {
       if (xhr.responseText === "") {
-        error_msg.innerHTML = "No more publications to display";
+        error_msg.innerHTML = "No more posts.";
         error_msg.style.display = "block";
       }
       else if (xhr.responseText.indexOf("Error") == 0) {

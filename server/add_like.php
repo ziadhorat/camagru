@@ -9,7 +9,7 @@ $img_id = $db->quote($_POST['img_id']);
 $comment = $db->quote(htmlspecialchars($_POST['comment'], ENT_QUOTES));
 
 if ($user_id === "''") {
-  echo "You must be logged in to like/comment photos.<br/>";
+  echo "You must log in to like/comment photos.<br/>";
   die();
 }
 if ($img_id == "''") {
