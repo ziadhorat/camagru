@@ -9,7 +9,6 @@
 		<link rel="stylesheet" type="text/css" href="stylesheets/banners.css">
 		<link rel="stylesheet" type="text/css" href="stylesheets/camera.css">
 		<link rel="stylesheet" type="text/css" href="stylesheets/main.css">
-
 		<?php
 		if (isset($_SESSION['logged']))
 			echo "<title>Camagru - Camera</title>";
@@ -26,6 +25,5 @@
 			echo "<script src='js/forms.js'></script><script src='js/tools.js'></script>";
 		}
 	?>
-
 	</body>
 </html>
