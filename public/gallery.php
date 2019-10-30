@@ -19,7 +19,7 @@
 		<h1>Gallery</h1>
 		<p id='gallery_main_msg' class='error_msg'></p>
 		<div id='publications_container'></div>
-		<button id='see_more'>See more<br/><br/>V<br/>V</button>
+		<button id='see_more'>See more</button>
 		<p id='see_more_msg' class='error_msg'></p>
 	</main>
 	<script src='../js/gallery.js'></script>
