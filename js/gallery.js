@@ -101,7 +101,7 @@ window.addEventListener('load', function(ev) {
   xhr.onreadystatechange = function() {
     if (xhr.status == 200 && xhr.readyState == 4) {
       if (xhr.responseText === "") {
-        error_msg.innerHTML = "No publication to display";
+        error_msg.innerHTML = "No posts to display";
         error_msg.style.display = "none";
       }
       else
