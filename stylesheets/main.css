@@ -9,11 +9,11 @@ main{
 }
 
 h1 {
-	color: #F8B195;
+	color: #0CBCE4;
 }
 
 #main_msg {
-	color: #355C7D;
+	color: #5BAEE5;
 }
 
 main button{
@@ -25,7 +25,7 @@ main button{
 	display: table;
 	max-width: 90%;
   border-radius: 5px;
-  background-color: #F8B195;
+  background-color: #C5D8E1;
   padding: 10px;
 	margin-top: 20px;
 	margin-bottom: 20px;
@@ -43,7 +43,7 @@ input, textarea {
     padding: 12px 20px;
     margin: 10px 10px;
     display: inline-block;
-    border: 1px solid #F67280;
+    border: 1px solid #703770;
     border-radius: 4px;
     box-sizing: border-box;
 }
@@ -51,8 +51,8 @@ input, textarea {
 input[type=button], button {
 		font-size: 15px;
     width: 90%;
-    background-color: #355C7D;
-    color: #F8B195;
+    background-color: #703770;
+    color: #5BAEE5;
     padding: 10px 20px;
     margin: 10px 10px;
     border: none;
@@ -61,14 +61,14 @@ input[type=button], button {
 }
 
 input[type=button]:hover, button:hover {
-    background-color: #6C5B7B;
+    background-color: #0C819C;
 }
 
 .back {
 		width: 40%;
-		background-color: grey;
+		background-color: #703770;
 }
 
 .back:hover {
-	background-color: #565B5A;
+	background-color: #0C819C;
 }

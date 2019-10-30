@@ -2,7 +2,7 @@ header {
 	position: fixed;
 	top: 0;
 	width: 100%;
-	border-bottom: 1px solid #bbb;
+	border-bottom: 1px solid #703770;
 	z-index: 1;
 }
 
@@ -11,42 +11,42 @@ ul {
 	margin: 0;
 	padding:0;
 	overflow: hidden;
-	background-color: #6C5B7B;
+	background-color: #0C819C;
 }
 
 li {
 	float: left;
-	border-right: 1px solid #bbb;
+	border-right: 1px solid #703770;
 }
 
 li:last-child {
 	border-right: none;
-	border-left: 1px solid #bbb;
+	border-left: 1px solid #703770;
 }
 
 li a {
 	display: block;
-	color: #F8B195;
+	color: #C5D8E1;
 	text-align: center;
 	padding: 14px 16px;
 	text-decoration: none;
 }
 
 li a:hover {
-	background-color: #C06C84;
+	background-color: #334553;
 }
 
 footer {
 	width:100%;
-	background-color: #6C5B7B;
+	background-color: #0C819C;
 	position:fixed;
 	text-align:center;
 	bottom: 0;
-	border-top: 1px solid #F8B195;
+	border-top: 1px solid #703770;
 	z-index: 1;
 }
 
 footer h3{
-	font-size: 50%;
-	color:#F67280;
+	font-size: 80%;
+	color:#C5D8E1;
 }

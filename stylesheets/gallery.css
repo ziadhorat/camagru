@@ -1,9 +1,9 @@
 .error_msg {
-  color: #FFBF00;
+  color: red;
 }
 
 .publication {
-  background-color: #6C5B7B;
+  background-color: #C5D8E1;
   width: 650px;
   max-width: 90%;
   margin: auto;
@@ -63,12 +63,11 @@
 }
 
 .comments {
-	border-radius: 5%;
-  background-color: #C06C84;
-  border: 1px solid #355C7D;
+  background-color: #0C819C;
+  border: 1px solid #703770;
   margin: 1px;
   padding: 2px;
-  color: #355C7D;
+  color: #C5D8E1;
 }
 
 #see_more {
