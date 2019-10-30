@@ -8,7 +8,7 @@ window.addEventListener('load', function(ev) {
       startbutton = document.getElementById("startbutton");
       g_filter_set = 0;
 
-  startbutton.setAttribute("style", "background-color: #355C7D");
+  startbutton.setAttribute("style", "background-color: #0C819C");
   xhr.onreadystatechange = function() {
     if (xhr.status == 200 && xhr.readyState == 4) {
       var imgs = xhr.responseText.split("\0");

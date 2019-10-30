@@ -51,8 +51,8 @@ input, textarea {
 input[type=button], button {
 		font-size: 15px;
     width: 90%;
-    background-color: #703770;
-    color: #5BAEE5;
+    background-color: #0C819C;
+    color: #C5D8E1;
     padding: 10px 20px;
     margin: 10px 10px;
     border: none;
@@ -61,7 +61,7 @@ input[type=button], button {
 }
 
 input[type=button]:hover, button:hover {
-    background-color: #0C819C;
+    background-color: #703770;
 }
 
 .back {
