@@ -26,7 +26,7 @@ while (($img_data = $img_query->fetch(PDO::FETCH_ASSOC)) !== false) {
 		<img id='addlike_".$img_id."' class='like' src='../images/icons/heart.png' onclick='add_like(this)'>
 		<p id='nblikes_".$img_id."' class='nb_likes'>".$img_data['nb_likes']."</p></img>";
   if ($_SESSION['logged'] !== NULL) {
-	$page_content .= "<input id='comcontent_".$img_id."' type='text' placeholder='Your comment...'>
+	$page_content .= "<input id='comcontent_".$img_id."' type='text' placeholder='type your comment...'>
 					  <button id='sendcom_".$img_id."' class='send_com' onclick='send_comment(this)'>OK</button>";
   }
   $page_content .= "<p id='pubmsg_".$img_id."' class='error_msg'></p></div>

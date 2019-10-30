@@ -21,7 +21,7 @@ $query = $db->query("SELECT img_id FROM images WHERE img_id = $img_id");
 $res = $query->fetch();
 
 if ($res == NULL) {
-  echo "The photo doesn't exists or has been removed.<br/>";
+  echo "The photo has been removed by an admin.<br/>";
   die();
 }
 $query = $db->query("SELECT login FROM users WHERE user_id = $user_id");

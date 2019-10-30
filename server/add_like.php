@@ -9,13 +9,13 @@ if ($user_id === "''") {
 	die();
 }
 if ($img_id == "''") {
-	echo "An error occured - Incomplete request.<br/>";
+	echo "Incomplete request.<br/>";
 	die();
 }
 $query = $db->query("SELECT img_id FROM images WHERE img_id = $img_id");
 $res = $query->fetch();
 if ($res == NULL) {
-	echo "The photo doesn't exists or has been removed.<br/>";
+	echo "This image has been removed by an admin.<br/>";
 	die();
 }
 $query = $db->query("SELECT like_id FROM likes WHERE img_id = $img_id AND author_id = $user_id");

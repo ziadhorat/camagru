@@ -14,7 +14,7 @@ $res = $query->fetch();
 if ($res == NULL)
   $response = "Invalid username/password.<br/>";
 else if ($res['confirm_hash'] !== "") {
-  $response = "Your account is not active yet. Please check your inbox for the activation email.<br/>";
+  $response = "Please check your inbox for the activation email.<br/>";
 }
 else
   $_SESSION['logged'] = $res['user_id'];

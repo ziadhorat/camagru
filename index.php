@@ -1,4 +1,6 @@
-<?php	session_start(); ?>
+<?php	
+session_start(); 
+?>
 <!DOCTYPE html>
 <html>
 	<head>
@@ -11,9 +13,9 @@
 		<link rel="stylesheet" type="text/css" href="stylesheets/main.css">
 		<?php
 		if (isset($_SESSION['logged']))
-			echo "<title>Camagru - Camera</title>";
+			echo "<title>Camera</title>";
 		else
-			echo "<title>Camagru - Log in</title>";
+			echo "<title>Log in</title>";
 		echo "</head><body>";
 		include('public/header.php');
 		include('public/footer.php');

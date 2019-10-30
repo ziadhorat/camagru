@@ -9,7 +9,7 @@
 	text-align:center;
 	}
 	</style>
-		<title>Camagru - account validation</title>
+		<title>Validation</title>
 	</head>
 	<body>
 	<h3>

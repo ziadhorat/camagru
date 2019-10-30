@@ -8,7 +8,7 @@
 		<link rel="stylesheet" type="text/css" href="../stylesheets/banners.css">
 		<link rel="stylesheet" type="text/css" href="../stylesheets/main.css">
 		<link rel="stylesheet" type="text/css" href="../stylesheets/gallery.css">
-		<title>Camagru - Gallery</title>
+		<title>Gallery</title>
 	</head>
 	<body>
 	<?php
