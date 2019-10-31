@@ -277,11 +277,6 @@ navigator.mediaDevices.getUserMedia({video: true, audio: false}
 	var img,
 		filter = document.getElementById("filter_canvas"),
 		photo_default = document.getElementById("photo_default");
-
-	if (g_filter_set === 0) {
-	  alert("You must choose a picture before taking a photo");
-	  return ;
-	}
 	if (photo_default !== null)
 	  photo_default.parentNode.removeChild(photo_default);
 	if (streaming === true) {
